@@ -1,0 +1,22 @@
+{
+  "name": "automatic-postgres-backups-on-heroku-deployment",
+  "version": "1.0.0",
+  "description": "Automatic postgres backups to S3 on Heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backup":"bash ./bin/backup.sh",
+    "postinstall": "npm run backup"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/automatic-postgres-backups-on-heroku-deployment.git"
+  },
+  "author": "naazy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwyl/automatic-postgres-backups-on-heroku-deployment/issues"
+  },
+  "homepage": "https://github.com/dwyl/automatic-postgres-backups-on-heroku-deployment#readme"
+}
