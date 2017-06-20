@@ -1,3 +1,5 @@
+### If you would like to view the **MYSQL** backups section [click here](./mysql-backups/MYSQL.md)
+
 # Automatic postgres backups on heroku deployment
 
 Set up external postgres backups to an S3 bucket to take place automatically every time you deploy to Heroku.
